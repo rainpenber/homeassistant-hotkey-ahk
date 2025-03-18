@@ -7,7 +7,7 @@ autohotkey脚本 通过自定义键盘快捷键控制自己的HomeAssistant设�
 ## 使用
 1. 访问你家的HomeAssistant，在{你的ha地址:端口号}/profile/security，长期访问令牌处 获取长期访问令牌
 2. 在你的HomeAssistant中，获取想要控制的设备的`entity_id`
-3. 编辑`ha_post_request.ahk`，根据你自己的情况修改`BASE_URL`和`AUTH_TOKEN`，以及想要控制的设备`entity_id`、快捷键
+3. 编辑`ha_shortcuts.ini`，根据你自己的情况修改`BASE_URL`和`AUTH_TOKEN`，以及想要控制的设备`entity_id`、快捷键
 4. 如果你电脑上安装了Autohotkey v2版本，则下载源码后直接运行`ha_post_request.ahk`即可。
 5. 如果没有安装，则直接运行编译好的`ha_post_request.exe`即可。（请确保ha_post_request.exe和ha_shortcuts.ini在同一目录下）
 
